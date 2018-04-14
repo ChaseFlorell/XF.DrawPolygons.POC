@@ -5,10 +5,10 @@
              x:Class="XF.DrawPolygons.POC.MainPage" >
 
 	<m:TKCustomMap x:Name="CustomMap" 
-                   IsShowingUser="True"
-	               MapClickedCommand="{Binding MapClickedCommand}" 
-	               Pins="{Binding Pins}" 
-	               Polylines="{Binding Polylines}"
-	               PinSelectedCommand="{Binding PinClickedCommand}" />
+		       IsShowingUser="True"
+		       MapClickedCommand="{Binding MapClickedCommand}" 
+		       Pins="{Binding Pins}" 
+		       Polylines="{Binding Polylines}"
+		       PinSelectedCommand="{Binding PinClickedCommand}" />
 
 </ContentPage>
