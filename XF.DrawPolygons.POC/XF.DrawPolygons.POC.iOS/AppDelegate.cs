@@ -22,8 +22,9 @@ namespace XF.DrawPolygons.POC.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
             TK.CustomMap.iOSUnified.TKCustomMapRenderer.InitMapRenderer();
+            TK.CustomMap.iOSUnified.TKCustomMapRenderer.AnimateOnPinDrop = false;
+            global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

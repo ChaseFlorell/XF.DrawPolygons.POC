@@ -6,6 +6,7 @@
 
 	<m:TKCustomMap x:Name="CustomMap" 
 		       IsShowingUser="True"
+               IsClusteringEnabled="False"
 		       MapClickedCommand="{Binding MapClickedCommand}" 
 		       Pins="{Binding Pins}" 
 		       Polylines="{Binding Polylines}"
