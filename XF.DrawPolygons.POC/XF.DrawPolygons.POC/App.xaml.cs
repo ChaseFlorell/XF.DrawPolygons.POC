@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new MainPage {BindingContext = new MainPageViewModel()};
+            MainPage = new MainPage();
         }
     }
 }
