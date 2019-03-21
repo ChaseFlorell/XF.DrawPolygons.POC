@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6549da9-4b58-485e-863d-13a2ab71840e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/XF.DrawPolygons.POC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/XF.DrawPolygons.POC.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2064">
+              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <marker date="1553183433233" expanded="true" signature="40:1489" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;&#9;&lt;poc:MainPageViewModel/&gt;&#10;&lt;/ContentPage.BindingContext&gt; &lt;AbsoluteLayout&gt;&#10;&#9;&#9;&lt;m:TKCustomMap AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot;&#10;&#9;&#9;               AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;&#10;&#9;&#9;               IsShowingUser=&quot;True&quot;&#10;&#9;&#9;               IsClusteringEnabled=&quot;False&quot;&#10;&#9;&#9;               MapClickedCommand=&quot;{Binding MapClickedCommand}&quot; &#10;&#9;&#9;               Pins=&quot;{Binding Pins}&quot; &#10;&#9;&#9;               Polylines=&quot;{Binding Polylines}&quot;&#10;&#9;&#9;               Polygons=&quot;{Binding Polygons}&quot;&#10;&#9;&#9;               PinSelectedCommand=&quot;{Binding PinClickedCommand}&quot; /&gt;&#10;&#9;&#9;&#10;&#9;&#9;&lt;Button AbsoluteLayout.LayoutBounds=&quot;0,1, 1, 30&quot;&#10;&#9;&#9;        AbsoluteLayout.LayoutFlags=&quot;PositionProportional,WidthProportional&quot; &#10;&#9;&#9;        BackgroundColor=&quot;Navy&quot;&#10;&#9;&#9;        CornerRadius=&quot;4&quot;&#10;&#9;&#9;        TextColor=&quot;White&quot;&#10;&#9;&#9;        Text=&quot;Clear Polygon&quot; &#10;&#9;&#9;        Command=&quot;{Binding ClearPolygonCommand}&quot;/&gt;&#10;&#9;&lt;/AbsoluteLayout&gt;.../&gt;" />
+                <marker date="1553183433233" expanded="true" signature="538:622" ph="&lt;&lt;poc:MainPageViewModel/&gt;.../&gt;" />
+                <marker date="1553183433233" expanded="true" signature="624:1473" ph="&lt;&lt;m:TKCustomMap AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot;&#10;&#9;&#9;               AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;&#10;&#9;&#9;               IsShowingUser=&quot;True&quot;&#10;&#9;&#9;               IsClusteringEnabled=&quot;False&quot;&#10;&#9;&#9;               MapClickedCommand=&quot;{Binding MapClickedCommand}&quot; &#10;&#9;&#9;               Pins=&quot;{Binding Pins}&quot; &#10;&#9;&#9;               Polylines=&quot;{Binding Polylines}&quot;&#10;&#9;&#9;               Polygons=&quot;{Binding Polygons}&quot;&#10;&#9;&#9;               PinSelectedCommand=&quot;{Binding PinClickedCommand}&quot; /&gt; &lt;Button AbsoluteLayout.LayoutBounds=&quot;0,1, 1, 30&quot;&#10;&#9;&#9;        AbsoluteLayout.LayoutFlags=&quot;PositionProportional,WidthProportional&quot; &#10;&#9;&#9;        BackgroundColor=&quot;Navy&quot;&#10;&#9;&#9;        CornerRadius=&quot;4&quot;&#10;&#9;&#9;        TextColor=&quot;White&quot;&#10;&#9;&#9;        Text=&quot;Clear Polygon&quot; &#10;&#9;&#9;        Command=&quot;{Binding ClearPolygonCommand}&quot;/&gt;.../&gt;" />
+                <marker date="1553183433233" expanded="true" signature="643:1149" ph="&lt;.../&gt;" />
+                <marker date="1553183433233" expanded="true" signature="1155:1454" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <marker date="1553091640855" expanded="false" signature="6:270" ph="..." />
+                <marker date="1553091640855" expanded="true" signature="301:3520" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="363:3518" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="985:1131" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="1771:2221" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="2275:2344" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="2399:3512" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="2519:2636" ph="/* if the user tapped the first marker, we'll close the gap. ... */" />
+                <marker date="1553091640855" expanded="true" signature="2943:3502" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="3021:3184" ph="{...}" />
+                <marker date="1553091640855" expanded="true" signature="3234:3345" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/UIKit/UIApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj" />
+        <option value="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/App.xaml.cs" />
+        <option value="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1899" />
+    <option name="y" value="-451" />
+    <option name="width" value="1680" />
+    <option name="height" value="978" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="XF.DrawPolygons.POC" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="XF.DrawPolygons.POC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="XF.DrawPolygons.POC" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="iPhone XS Max iOS 12.1" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Simulator" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6549da9-4b58-485e-863d-13a2ab71840e" name="Default Changelist" comment="" />
+      <created>1553089332061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553089332061</updated>
+      <workItem from="1553089333769" duration="3052000" />
+      <workItem from="1553183369948" duration="1743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4795000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1899" y="-451" width="1680" height="978" extended-state="1" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Azure Explorer" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32882413" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.64033264" visible="true" weight="0.2765237" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298647" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32746115" />
+      <window_info anchor="bottom" id="Docker" order="8" weight="0.3298647" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.4948025" weight="0.4151925" />
+      <window_info anchor="bottom" id="REST Client" order="11" weight="0.32879817" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4948025" weight="0.35025907" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4954955" weight="0.36240092" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49755037" weight="0.28893906" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50244963" side_tool="true" weight="0.38756478" />
+      <window_info anchor="bottom" id="TypeScript" order="16" />
+      <window_info anchor="bottom" id="Change Signature" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="18" />
+      <window_info anchor="right" id="Errors In Solution" order="0" weight="0.32986832" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.21123321" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <marker date="1553089310339" expanded="true" signature="30:125" ph="{...}" />
+            <marker date="1553089310339" expanded="true" signature="63:123" ph="{...}" />
+            <marker date="1553089310339" expanded="true" signature="86:120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1553090203698" expanded="true" signature="29:190" ph="{...}" />
+            <marker date="1553090203698" expanded="true" signature="60:188" ph="{...}" />
+            <marker date="1553090203698" expanded="true" signature="87:182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/UIKit/UIApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <marker date="1548969409880" expanded="true" signature="0:153" ph="/* UIApplication.cs: Extensions to UIApplication ... */" />
+            <marker date="1548969409880" expanded="false" signature="161:267" ph="..." />
+            <marker date="1548969409880" expanded="true" signature="285:4181" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="340:503" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="492:500" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="517:667" ph="/* There's no UIApplication on the watch, but we use the class extensively in bindings (EnsureUIThread, etc) ... */" />
+            <marker date="1548969409880" expanded="true" signature="761:3967" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="932:1114" ph="/* We link with __Internal here so that this function is interposable from third-party native libraries. ... */" />
+            <marker date="1548969409880" expanded="true" signature="1346:1500" ph="/* called from NSExtension.Initialize (so other, future stuff, can be added if needed) ... */" />
+            <marker date="1548969409880" expanded="true" signature="1537:1716" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="1826:2084" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="2171:2323" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="2367:2417" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="2490:2580" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="2627:2916" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="2635:2763" ph="/* note: some extensions, like keyboards, won't call Main (and set mainThread) ... */" />
+            <marker date="1548969409880" expanded="true" signature="3011:3311" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="3470:3964" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="4040:4172" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="4082:4169" ph="{...}" />
+            <marker date="1548969409880" expanded="true" signature="4091:4165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS/XF.DrawPolygons.POC.iOS.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2064">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <marker date="1553091640855" expanded="false" signature="6:270" ph="..." />
+            <marker date="1553091640855" expanded="true" signature="301:3520" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="363:3518" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="985:1131" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="1771:2221" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="2275:2344" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="2399:3512" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="2519:2636" ph="/* if the user tapped the first marker, we'll close the gap. ... */" />
+            <marker date="1553091640855" expanded="true" signature="2943:3502" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="3021:3184" ph="{...}" />
+            <marker date="1553091640855" expanded="true" signature="3234:3345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XF.DrawPolygons.POC/XF.DrawPolygons.POC/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <marker date="1553183433233" expanded="true" signature="40:1489" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;&#9;&lt;poc:MainPageViewModel/&gt;&#10;&lt;/ContentPage.BindingContext&gt; &lt;AbsoluteLayout&gt;&#10;&#9;&#9;&lt;m:TKCustomMap AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot;&#10;&#9;&#9;               AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;&#10;&#9;&#9;               IsShowingUser=&quot;True&quot;&#10;&#9;&#9;               IsClusteringEnabled=&quot;False&quot;&#10;&#9;&#9;               MapClickedCommand=&quot;{Binding MapClickedCommand}&quot; &#10;&#9;&#9;               Pins=&quot;{Binding Pins}&quot; &#10;&#9;&#9;               Polylines=&quot;{Binding Polylines}&quot;&#10;&#9;&#9;               Polygons=&quot;{Binding Polygons}&quot;&#10;&#9;&#9;               PinSelectedCommand=&quot;{Binding PinClickedCommand}&quot; /&gt;&#10;&#9;&#9;&#10;&#9;&#9;&lt;Button AbsoluteLayout.LayoutBounds=&quot;0,1, 1, 30&quot;&#10;&#9;&#9;        AbsoluteLayout.LayoutFlags=&quot;PositionProportional,WidthProportional&quot; &#10;&#9;&#9;        BackgroundColor=&quot;Navy&quot;&#10;&#9;&#9;        CornerRadius=&quot;4&quot;&#10;&#9;&#9;        TextColor=&quot;White&quot;&#10;&#9;&#9;        Text=&quot;Clear Polygon&quot; &#10;&#9;&#9;        Command=&quot;{Binding ClearPolygonCommand}&quot;/&gt;&#10;&#9;&lt;/AbsoluteLayout&gt;.../&gt;" />
+            <marker date="1553183433233" expanded="true" signature="538:622" ph="&lt;&lt;poc:MainPageViewModel/&gt;.../&gt;" />
+            <marker date="1553183433233" expanded="true" signature="624:1473" ph="&lt;&lt;m:TKCustomMap AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot;&#10;&#9;&#9;               AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;&#10;&#9;&#9;               IsShowingUser=&quot;True&quot;&#10;&#9;&#9;               IsClusteringEnabled=&quot;False&quot;&#10;&#9;&#9;               MapClickedCommand=&quot;{Binding MapClickedCommand}&quot; &#10;&#9;&#9;               Pins=&quot;{Binding Pins}&quot; &#10;&#9;&#9;               Polylines=&quot;{Binding Polylines}&quot;&#10;&#9;&#9;               Polygons=&quot;{Binding Polygons}&quot;&#10;&#9;&#9;               PinSelectedCommand=&quot;{Binding PinClickedCommand}&quot; /&gt; &lt;Button AbsoluteLayout.LayoutBounds=&quot;0,1, 1, 30&quot;&#10;&#9;&#9;        AbsoluteLayout.LayoutFlags=&quot;PositionProportional,WidthProportional&quot; &#10;&#9;&#9;        BackgroundColor=&quot;Navy&quot;&#10;&#9;&#9;        CornerRadius=&quot;4&quot;&#10;&#9;&#9;        TextColor=&quot;White&quot;&#10;&#9;&#9;        Text=&quot;Clear Polygon&quot; &#10;&#9;&#9;        Command=&quot;{Binding ClearPolygonCommand}&quot;/&gt;.../&gt;" />
+            <marker date="1553183433233" expanded="true" signature="643:1149" ph="&lt;.../&gt;" />
+            <marker date="1553183433233" expanded="true" signature="1155:1454" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

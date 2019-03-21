@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_XF.DrawPolygons.POC.-1128355897.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="XF.DrawPolygons.POC/XF.DrawPolygons.POC" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="MainPageViewModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="XF.DrawPolygons.POC.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="XF.DrawPolygons.POC.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XF.DrawPolygons.POC/XF.DrawPolygons.POC.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Default-568h@2x.png" t="Include" />
+          <e p="Default-Portrait.png" t="Include" />
+          <e p="Default-Portrait@2x.png" t="Include" />
+          <e p="Default.png" t="Include" />
+          <e p="Default@2x.png" t="Include" />
+          <e p="Icon-60@2x.png" t="Include" />
+          <e p="Icon-60@3x.png" t="Include" />
+          <e p="Icon-76.png" t="Include" />
+          <e p="Icon-76@2x.png" t="Include" />
+          <e p="Icon-Small-40.png" t="Include" />
+          <e p="Icon-Small-40@2x.png" t="Include" />
+          <e p="Icon-Small-40@3x.png" t="Include" />
+          <e p="Icon-Small.png" t="Include" />
+          <e p="Icon-Small@2x.png" t="Include" />
+          <e p="Icon-Small@3x.png" t="Include" />
+          <e p="LaunchScreen.storyboard" t="Include" />
+        </e>
+        <e p="XF.DrawPolygons.POC.iOS.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XF.DrawPolygons.POC.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
